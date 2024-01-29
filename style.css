@@ -38,7 +38,7 @@ a{  text-decoration: none;
   width: 100px;
 }
 .box:hover{
-  transform: scale(1.5);
+  transform: scale(1);
 }
 .box1 {
 }
