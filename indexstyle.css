@@ -54,11 +54,9 @@
 
 
 
-   
+   .posrelative{position: relative;}
     button {
-        position: absolute;
-        left: 600px;
-        top: 500px;
+       
       padding: 21px 38px;
       border-radius: 50px;
       cursor:pointer;   
@@ -85,3 +83,9 @@ filter: grayscale(30%);
 box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
 transform: translateY(0);
 } 
+
+.btns{
+    position: absolute;
+    top: 483px;
+    left: 592px;
+}

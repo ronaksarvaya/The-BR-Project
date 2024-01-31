@@ -27,10 +27,13 @@ main {
 }
 .box {
   background-color: var(--box);
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 200px;
   /* border: 1px solid blue; */
   box-shadow: -5px 6px 11px 4px;
+  padding: 64px;
+  margin: -22px;
+  box-sizing: border-box;
 }
 a{  text-decoration: none; 
     color: black; 
@@ -38,7 +41,7 @@ a{  text-decoration: none;
   width: 100px;
 }
 .box:hover{
-  transform: scale(1);
+  transform: scale(1.2);
 }
 .box1 {
 }
