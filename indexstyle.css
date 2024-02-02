@@ -1,91 +1,39 @@
-*{margin:0;
- padding: 0;}
-
- body{
-    background-color: #C1CFDA;
-    
- }
-
- h1{
-    color: rgb(92, 92, 175);
-    margin-top: 3rem ;
- }
-
- .intro{
-    color: rgb(92, 92, 175);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10rem;
-    width: 25rem;
-    position: absolute;
-    top: 120px;
-    left: 485px;
-    font-size: 140%;
-
- }    
- .list{
-    color: rgb(92, 92, 175);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 320px;
-    left: 530px;
-    font-size: 139%;
-    height: 6rem;
-    width: 14rem;
-
- }    
+*{margin: 0px;}
+body{
  
-.imgbox{
-    position: relative;
-    width: 400px;
-    height: 900px;
-}
-.cap{
-    position: absolute;
-    top: -10px;
-    left: 1040px;
-    height: auto;
-    width: 100%;
-    object-fit: cover;
 }
 
+main{
+    border: 1px solid yellow;
+    padding: 10px;
+    background-color: #efead7;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    height: 99vh;
+    width: 99vw;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-left: 2px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
 
-
-   .posrelative{position: relative;}
-    button {
-       
-      padding: 21px 38px;
-      border-radius: 50px;
-      cursor:pointer;   
-  background: linear-gradient(0deg,   RGBA(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  border: 2px solid rgba(193, 207, 218, 1);
-      user-select: none;
-      -webkit-user-select: none;
-    }
-    button a {
-text-decoration:none;
-text-wrap: nowrap;
-font-size: 18px;
-      color:rgba(255, 255, 255, 100);
-    }
-button:hover,
-button:focus {
-box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
-button:hover {
-transform: translateY(-1px);
-}
-button:active {
-filter: grayscale(30%);
-box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-transform: translateY(0);
-} 
 
-.btns{
-    position: absolute;
-    top: 483px;
-    left: 592px;
+header{
+    grid-row: 1;
+}
+.middle{
+    grid-row: 2;
+    height: 10em;
+    width: 10em;
+    margin: auto 1rem;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    font-weight: bolder;
+
 }
