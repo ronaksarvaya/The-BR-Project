@@ -58,7 +58,7 @@ nav{
   
   left: 780px;
   } 
-main{
+main {
   
     position: absolute;
     top: 50%;
@@ -66,18 +66,26 @@ main{
     transform: translate(-50%,-50%);
 
 }
+.desc{
+    box-sizing: border-box;
+    position: relative;
+    top: 24px;
+    left: 24px;
+    font-size: 19px;
+    width: 877px;
+    padding: 24px 12px;
 
-header{
-    grid-row: 1;
 }
+
 .middle{
-    grid-row: 2;
+ 
     height: 10em;
     width: 10em;
     margin: auto 1rem;
     padding: 10px 10px;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Ubuntu';
