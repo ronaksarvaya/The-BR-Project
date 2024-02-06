@@ -76,7 +76,10 @@ main {
     padding: 24px 12px;
 
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .middle{
  
     height: 10em;
