@@ -37,12 +37,27 @@ nav{
     border-radius: 7px;
 }
 
-nav hr{
+.corner-hr{
     height: 8px;
     width: 700px;
     background-color: black;
     margin-top: 57px;
 }
+.belowhr{
+    margin-left: 340px ;
+    position: relative;
+    top: 440px;
+}
+.vertical {
+    border-left: 6px solid black;
+    height: 380px;
+    position:absolute;
+     left: -260px; 
+  }
+   .right-vertical{
+  
+  left: 780px;
+  } 
 main{
   
     position: absolute;
